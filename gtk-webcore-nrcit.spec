@@ -9,7 +9,7 @@ Group:		X11/Libraries
 Source0:	%{name}-%{snap}.tar.bz2
 # Source0-md5:	7dfd80800a0b92d57832af9337ae2232
 URL:		http://gtk-webcore.sourceforge.net/
-BuildRequires;	autoconf
+BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	curl-devel >= 7.11.0
 BuildRequires:	fontconfig-devel >= 1.0.0
